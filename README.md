@@ -1,2 +1,2 @@
 # Online-Admission-portal
-project based on online addmission system 
+project based on online admission system 
