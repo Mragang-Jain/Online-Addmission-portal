@@ -7,7 +7,7 @@
         #co2 {
 
             width: 80%;
-            height: 230%;
+            height: 215%;
             border-style: solid;
             background-color: white;
         }
@@ -121,7 +121,7 @@
         }
 
         .footer {
-            color: white;
+            color:  darkgrey;
             font-size: x-large;
             padding-top: 1.5rem;
             padding-bottom: 1rem;
@@ -154,7 +154,7 @@
                             <p class="title"><b>Student</p>
                             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                             <p>shankeyjain70000@gmail.com</p>
-                            <p><button class="button">Contact</button></p>
+                            <p><button onclick="myFunction()" class="button">Contact</button></p>
                         </div>
                     </div>
                 </div>
@@ -214,14 +214,18 @@
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             <p> <br></p>
             <center>
-            <div class="contactme">
+            
                 <footer class="footer">
+
+                    <br><br><br>
+                    <div align="center" class="contactme" style="background-color: darkgrey;" >
                         <div>
                             <h1 class="contactme-h1">
-                                <font color="RED"> Contact </font>
+                                <font color="RED"><u> Contact </u></font>
                             </h1>
                         </div>
-                        <div>
+                        <div align="center" style="background-color: darkgrey; justify-content: center; align-items: center; display: flex;">
+                            <center>
                             <span>
                                 <a href="https://github.com/Shankey9425" target="_blank">
                                     <img class="contact_me" src="github.jpg" alt="github">
@@ -234,20 +238,29 @@
                             </span>
                             <span>
                                 <a href="https://www.instagram.com/jain_shankey_/" target="_blank">
-                                    <img class="contact_me" src="instagram.png" alt="linkedin">
+                                    <img class="contact_me" src="insta.png" alt="linkedin">
                                 </a>
                             </span>
                             <span>
                                 <a href="https://twitter.com/MragangJ" target="_blank">
-                                    <img class="contact_me" src="twitter.png" alt="linkedin">
+                                    <img class="contact_me" src="tw.png" alt="linkedin">
                                 </a>
                             </span>
+                        </center>
                         </div>
+                    </div>
                 </footer>
-            </div>
+            
             </center>
         </div>
     </center>
+
+    <script>
+        function myFunction() {
+         window.open("http://shankeyj.netlify.app" , "_blank");
+        }
+        </script>
+
 </body>
 
 </html>
